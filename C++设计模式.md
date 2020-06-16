@@ -345,7 +345,7 @@ public:
     }
 };
 
-//创建黑色衣服的工厂类，具体实现创建黑色上衣和白色裤子的接口
+//创建黑色衣服的工厂类，具体实现创建黑色上衣和黑色裤子的接口
 class BlackFactory : public Factory
 {
     Coat* createCoat() override
